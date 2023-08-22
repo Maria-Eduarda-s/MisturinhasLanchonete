@@ -1,8 +1,23 @@
 header {
     background-color: #62115C;
+    padding: 30px;
+}
+
+nav {
+    text-align: center;
 }
 
 a {
     color: white;
-    font-size: 76px;
+    font-size: 50px;
+    font-family: "Pathway Gothic One", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+    margin: 0 50px;
+    line-height: 1.5;
+    display: inline-block;
 }
+
+nav a.colored {
+    color: #FFBD59;
+  }  
