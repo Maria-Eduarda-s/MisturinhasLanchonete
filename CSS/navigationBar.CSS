@@ -1,6 +1,6 @@
 header {
     background-color: #62115C;
-    padding: 30px;
+    height: 100px;
 }
 
 nav {
@@ -13,11 +13,19 @@ a {
     font-family: "Pathway Gothic One", Arial, Helvetica, sans-serif;
     font-weight: normal;
     text-decoration: none;
-    margin: 0 50px;
     line-height: 1.5;
+    margin: 0 50px;
     display: inline-block;
 }
 
-nav a.colored {
+a:nth-child(2) {
     color: #FFBD59;
-  }  
+}
+
+a:hover {
+    border: 1px solid #FFBD59;
+    border-radius: 20px;
+    padding: 0px;
+    margin: 0 50px;
+
+}
