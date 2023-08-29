@@ -5,7 +5,7 @@
 .image img {
     margin: 50px auto 0;
     width: 300px;
-    height: auto;
+    height: auto;  
 }
 
 .text {
@@ -17,6 +17,10 @@
     margin-top: 20px;
 }
 
+a, a:link, a:visited, a:focus, a:hover, a:active{
+    text-decoration:none;
+  }
+
 .instagram-container {
     display: flex;
     justify-content: center;
@@ -27,7 +31,7 @@
 
 .instagram-content {
     display: flex;
-    width: 137px;
+    align-items: center;
 }
 
 .instagram-logo {
@@ -39,4 +43,5 @@
     color: #62115C;
     width: 30px;
     font-size: 30px;
+    text-decoration: none;
 }
