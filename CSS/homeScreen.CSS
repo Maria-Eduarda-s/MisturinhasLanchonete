@@ -1,8 +1,12 @@
-.image {
+a, a:link, a:visited, a:focus, a:hover, a:active{
+    text-decoration:none;
+  }
+
+.image-home {
     text-align: center;
 }
 
-.image img {
+.image-home img {
     margin: 50px auto 0;
     width: 300px;
     height: auto;  
@@ -16,10 +20,6 @@
     text-decoration: none;
     margin-top: 20px;
 }
-
-a, a:link, a:visited, a:focus, a:hover, a:active{
-    text-decoration:none;
-  }
 
 .instagram-container {
     display: flex;
